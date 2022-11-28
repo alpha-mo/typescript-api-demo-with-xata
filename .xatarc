@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://alpha-mo-s-test-workspace-pg3t79.eu-west-1.xata.sh/db/alpha-jobs-demo-board",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
