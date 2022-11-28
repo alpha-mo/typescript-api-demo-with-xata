@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "typescript-api-demo-with-xata",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple API that uses express and typescript to connect to a XATA database with usual CRUD end-points.",
   "article-link": "https://khalilstemmler.com/blogs/typescript/node-starter-project/",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,22 @@
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha-mo/typescript-api-demo-with-xata.git"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "xata",
+    "api"
+  ],
+  "author": "alpha-mo",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpha-mo/typescript-api-demo-with-xata/issues"
+  },
+  "homepage": "https://github.com/alpha-mo/typescript-api-demo-with-xata#readme",
   "devDependencies": {
     "@types/express": "^4.17.14",
     "@types/node": "^18.11.9",
