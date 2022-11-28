@@ -2,12 +2,6 @@
 
 This demo utilizes TypeScript and it's amazing features with a <a href="https://xata.io/" target="_blanc"><img src="./readme/xata-logo.png" height="25px"></a> database.
 
-You can use `npm` to install this demo
-
-```shell
-npm i typescript-api-demo-with-xata
-```
-
 after creating an account with `xata` you can create a simple database `jobs` and create the following columns:
 
 - company `:string`
